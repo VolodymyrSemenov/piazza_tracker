@@ -7,10 +7,10 @@
 
 ## Notes:
 - *Time tracking pauses when you switch tabs.*
-- *This feature exclusively monitors the duration of TAd classes.*
+- *This feature exclusively monitors the duration of TA'd classes.*
 
 ## Areas for Improvement:
 - Enhance the UI design.
-- Diminish the visibility of the extension on non-Piazza pages.
-- Optimize API calls for storage efficiency.
+- Disable the popup of the extension on non-Piazza pages.
+- Decrease amount of API calls for storage.
 - Implement a feature to display the total time spent across all classes.
