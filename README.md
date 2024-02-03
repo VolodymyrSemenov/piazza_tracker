@@ -6,8 +6,8 @@
 - Locate and select the extension folder.
 
 ## Notes:
-- Time tracking pauses when you switch tabs. Can be disabled by commenting out 68-76 in content_script.js.
-- Only tested in chrome.
+- Time tracking pauses when you switches tabs, closes the tab, minimizes or closes the browser. Can be disabled by commenting out 68-76 in content_script.js.
+- Only tested in Chrome.
 - This extension exclusively monitors the duration of TA'd classes.
 
 ## Areas for Improvement:
