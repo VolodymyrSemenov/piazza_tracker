@@ -2,6 +2,7 @@
 
 ## Installation:
 - Open Chrome and on the extensions bar click the puzzle and go to **Manage Extensions**.
+- Turn on developer mode.
 - Click on **Load Unpacked**.
 - Locate and select the extension folder.
 
