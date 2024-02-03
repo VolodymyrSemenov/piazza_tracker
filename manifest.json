@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Piazza Tracker",
+    "version": "1.0.0",
+    "description": "Records time spent in TA'd classes",
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "action": {
+        "default_title": "View Time",
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://piazza.com/class/*"],
+            "js": ["js/content_script.js"]
+        }
+    ]
+}
